@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "rules-engine"
+version = "0.1.0"
+description = ""
+authors = ["sgript <s94ahmad@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.1.0"
+black = "^24.3.0"
+pytest = "^8.1.1"
+behave = "^1.2.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
